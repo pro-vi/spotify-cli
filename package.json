@@ -1,0 +1,30 @@
+{
+  "name": "sp",
+  "version": "0.1.0",
+  "description": "Spotify DJ CLI for AI agents and humans",
+  "module": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "sp": "src/index.ts"
+  },
+  "author": "Provi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pro-vi/spotify-cli"
+  },
+  "keywords": ["spotify", "cli", "dj", "agent", "applescript", "bun"],
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "chalk": "^5.6.2"
+  }
+}
