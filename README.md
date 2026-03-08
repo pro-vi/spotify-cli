@@ -1,4 +1,10 @@
-# sp -- Spotify DJ CLI for AI agents and humans
+# sp -- Spotify DJ CLI
+
+**Agent quick start**:
+
+```text
+I want you to be my DJ. Read https://github.com/pro-vi/spotify-cli -- explore what it can do, then help me set it up.
+```
 
 A command-line interface for controlling Spotify playback, designed for both AI agent DJ workflows and direct human use. Structured JSON output for programmatic control, pretty terminal output for humans. macOS only -- uses AppleScript for low-latency playback control and the Spotify Web API for search, queue, and library features.
 
